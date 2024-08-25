@@ -3,7 +3,7 @@ import java.util.*;
 public class Collections {
     public static void main(String[] args) {
 
-        //CHANGES DONE
+        //CHANGES DONE TO USERNAME
 
         //                                               List--Sets--Maps
 
