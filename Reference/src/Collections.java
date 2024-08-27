@@ -3,11 +3,9 @@ import java.util.*;
 public class Collections {
     public static void main(String[] args) {
 
-        //CHANGES DONE TO USERNAME AGAIN
-        // Tested on my LAPTOP!!
-        //Changes made
+        //Notes:
 
-        //                                               List--Sets--Maps
+        //                                            List--Sets--Maps--LinkedList
 
         //-----------------------------------------------------------------------------------------------------------
 
@@ -109,8 +107,10 @@ public class Collections {
         //Creates a Set and assigns the Set-racerKeys to HashMap-racerPlacement
         //Key.set() gets the keys for racerPlacement
         Set<Integer> racerKeys = racerPlacement.keySet();
+
         //loops through racerKeys/racerPlacement
         for(Integer key : racerKeys){
+
             //prints out the key and racerPlacement.get(key)
             System.out.println(key + " : " + racerPlacement.get(key));
         }
@@ -121,10 +121,41 @@ public class Collections {
             System.out.println(racer);
         }
 
+        //creates a hashMap with STRINGS
         Map<String, String> dict = new HashMap<String, String>();
         dict.put("Grit","courage and resolve; strength of character.");
         dict.put("Winner", "a person or thing that wins something.");
         dict.put("discipline","the practice of training people to obey rules or a code of behavior, using punishment to correct disobedience.");
+
+
+
+        //---------------------------------------------------------------------------------------------------------------
+
+
+        /*
+        *                                               LinkedList
+        *
+        * LinkedList is a good choice when frequent insertions or deletions in the middle of the list are expected
+        *
+        * */
+
+
+        //Creating a Linked List with the data type STRINGS
+        LinkedList<String> shoppingList = new LinkedList<>();
+
+        //Adding elements to shoppingList;
+        shoppingList.add("apple");
+        shoppingList.add("yogurt");
+        shoppingList.add("milk");
+        shoppingList.add("ham");
+
+        //removing elements from shoppingList
+        shoppingList.remove(1);
+
+        //printing out the shoppingList with a enhanced for loop
+        for(String items : shoppingList){
+            System.out.println(items);
+        }
 
 
 
