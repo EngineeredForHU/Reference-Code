@@ -2,6 +2,8 @@ public class Practice {
 
     public static void main(String[] args) {
 
+        //                                     GWCC week 4 project     
+
         //                                  1.  Array int
 
         //Creates and initializes an Array with int {3,9,23,...}
