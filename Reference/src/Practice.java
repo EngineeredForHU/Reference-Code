@@ -44,6 +44,11 @@ public class Practice {
         }
         System.out.println(allNames);
 //------------------------------------------------------------------------------------------------------------------------
+        //3. How do you access the last element of any array?
+        // arrayName[arrayName.length - 1];
+
+        // 4. How do you access the first element of any array?
+        // arrayName[0];
 
 
         //5. Create a new array of int called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
@@ -65,6 +70,8 @@ public class Practice {
         System.out.println("sum of nameLength: " + letterSum);
 
         //----------------------------------------------------------------------------------------------------------------
+
+        //                                         printing out methods
 
         //concat method
         System.out.println(concat("hello" , 3));
@@ -140,11 +147,14 @@ public class Practice {
     //7. Write a method that takes a String, word, and an int, n, as arguments and returns the word concatenated to itself n number of times. (i.e. if I pass in “Hello” and 3, I expect the method to return “HelloHelloHello”).
 
     public static StringBuilder concat (String name, int n){
+        //string builder to add to a string
         StringBuilder names = new StringBuilder();
 
+        //loops through the n number of times to concat name
         for (int i = 0; i < n; i++){
             names.append(name);
         }
+        //returns names
         return names;
     }
 
@@ -152,6 +162,7 @@ public class Practice {
 
     //8. Write a method that takes two Strings, firstName and lastName, and returns a full name (the full name should be the first and the last name as a String separated by a space).
     public static String fullName (String firstName, String lastName){
+        //returns the name + lastname
         return firstName + " " + lastName;
     }
 
@@ -159,11 +170,13 @@ public class Practice {
 
     //9. Write a method that takes an array of int and returns true if the sum of all the int in the array is greater than 100.
     public static boolean sum(int[] num){
+       //placeholder
         int totalSum = 0;
 
+        //loops through the num.length
         for (int i = 0; i < num.length; i++){
             totalSum += num[i];
-            //System.out.println(totalSum);
+            //checks if total is more than 100
             if (totalSum > 100){
                 return true;
             }
@@ -174,8 +187,10 @@ public class Practice {
 
     //10. Write a method that takes an array of double and returns the average of all the elements in the array.
     public static double doubleAvg(double[] doubleArray){
+        //place holder
         double sum = 0;
 
+        //loops through the array of double
         for(int i = 0; i < doubleArray.length; i++){
             sum += doubleArray[i];
         }
@@ -186,18 +201,23 @@ public class Practice {
 
    // 11. Write a method that takes two arrays of double and returns true if the average of the elements in the first array is greater than the average of the elements in the second array.
     public static boolean biggerAvg(double[] arr1, double[] arr2){
+        //placeholder for total of arr1
         double arrSum1 = 0;
         double avg = 0;
 
+        //placeholder for total of arr2
         double arrSum2 = 0;
         double avg2 = 0;
 
+        //loops through the array1
         for (int i = 0; i < arr1.length; i++){
             arrSum1 += arr1[i];
         }
+        //loops through the array2
         for (int j = 0; j < arr2.length; j++){
             arrSum2 += arr2[j];
         }
+        //gets the avg
         avg = arrSum1 / arr1.length;
         avg2 = arrSum2 / arr2.length;
 
@@ -211,7 +231,8 @@ public class Practice {
 
 
     //12. Write a method called willBuyDrink that takes a boolean isHotOutside, and a double moneyInPocket, and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
-    public static  boolean willBuyDrink(boolean isHotOutside, double moneyInPocket){
+    public static boolean willBuyDrink(boolean isHotOutside, double moneyInPocket){
+        //checks if isHotOutside is true and if money in pocket is greater than or equal to 10.50
         if (isHotOutside && moneyInPocket >= 10.50){
             return true;
         }
@@ -221,8 +242,7 @@ public class Practice {
 
     /*13. Create a method of your own that solves a problem. In comments, write what the method does and why you created it.
 
-    //A method that takes a list of int and subtracts the first element of the first element from the last element of the list.
-    public static int subtract(int[] subtract){
+
 
         //Subtract[0] gets the first element of the list and subtracts the element at index subtract[ages.length-1] which is 0
 
@@ -242,11 +262,6 @@ public class Practice {
 
 
      */
-    //3. How do you access the last element of any array?
-    // arrayName[arrayName.length - 1];
-
-   // 4. How do you access the first element of any array?
-    // arrayName[0];
 
 
 }
