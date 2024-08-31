@@ -4,7 +4,7 @@ public class Practice {
 
         //                                     GWCC week 4 project     
 
-        //                                  1.  Array int
+        //                                  1.  Array int Question 1
 
         //Creates and initializes an Array with int {3,9,23,...}
         int[] ages = {100, 9, 23, 64, 2, 8, 28, 93};
@@ -19,6 +19,7 @@ public class Practice {
 
 
         //-----------------------------------------------------------------------------------------------------------------
+        //                                               Question 2
         // 2.  String Array
 
         //Array of Strings: names
@@ -46,6 +47,8 @@ public class Practice {
         }
         System.out.println(allNames);
 //------------------------------------------------------------------------------------------------------------------------
+//                                               Questions 3-6
+        
         //3. How do you access the last element of any array?
         // arrayName[arrayName.length - 1];
 
@@ -101,7 +104,7 @@ public class Practice {
 
 
 //-----------------------------------------------------------------------------------------------------------------------
- //                                               1.    array int methods
+ //                                               1.    array int methods for questions 1. a,b,c
 
 
     //A method that takes a list of int and subtracts the first element of the first element from the last element of the list.
@@ -144,7 +147,7 @@ public class Practice {
     }
 
 //-------------------------------------------------------------------------------------------------------------------------
-
+//                                           Questions 7-13
 
     //7. Write a method that takes a String, word, and an int, n, as arguments and returns the word concatenated to itself n number of times. (i.e. if I pass in “Hello” and 3, I expect the method to return “HelloHelloHello”).
 
