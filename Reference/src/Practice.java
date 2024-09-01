@@ -1,8 +1,7 @@
 public class Practice {
 
     public static void main(String[] args) {
-
-        //                                     GWCC week 4 project     
+        //                                     GWCC week 4 project
 
         //                                  1.  Array int Question 1
 
