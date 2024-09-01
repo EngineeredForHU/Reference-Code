@@ -154,7 +154,7 @@ public class Practice {
         //string builder to add to a string
         StringBuilder names = new StringBuilder();
 
-        //loops through the n number of times to concat name
+        //loops through the n number of times to concat name to names
         for (int i = 0; i < n; i++){
             names.append(name);
         }
