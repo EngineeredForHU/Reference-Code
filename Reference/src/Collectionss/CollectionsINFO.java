@@ -1,8 +1,9 @@
+package Collectionss;
+
 import java.util.*;
 
-public class Collections {
+public class CollectionsINFO {
     public static void main(String[] args) {
-
         //Notes:
 
         //                                            List--Sets--Maps--LinkedList
@@ -133,11 +134,13 @@ public class Collections {
 
 
         /*
-        *                                               LinkedList
-        *
-        * LinkedList is a good choice when frequent insertions or deletions in the middle of the list are expected
-        *
-        * */
+         *                                               LinkedList:
+         *
+         *
+         *
+         * LinkedList is a good choice when frequent insertions or deletions in the middle of the list are expected
+         *
+         * */
 
 
         //Creating a Linked List with the data type STRINGS
@@ -156,9 +159,5 @@ public class Collections {
         for(String items : shoppingList){
             System.out.println(items);
         }
-
-
-
     }
 }
-

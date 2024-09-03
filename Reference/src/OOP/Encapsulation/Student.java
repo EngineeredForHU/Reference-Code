@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Encapsulation;
 
 public class Student {
     static int numberOfStudent;
@@ -11,8 +11,8 @@ public class Student {
     //---------------------------------------------------------------------------------------------------------------
 
     /*
-    *                                                   Constructors
-    * */
+     *                                                   Constructors
+     * */
     public Student(){
 
     }
@@ -46,8 +46,8 @@ public class Student {
     }
 //---------------------------------------------------------------------------------------------------------------------
     /*
-    *                                                Getters and Setters
-    * */
+     *                                                Getters and Setters
+     * */
 
 
     //setter for firstName
