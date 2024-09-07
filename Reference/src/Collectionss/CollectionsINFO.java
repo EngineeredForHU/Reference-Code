@@ -135,9 +135,7 @@ public class CollectionsINFO {
 
         /*
          *                                               LinkedList:
-         *
-         *
-         *
+
          * LinkedList is a good choice when frequent insertions or deletions in the middle of the list are expected
          *
          * */
@@ -159,5 +157,16 @@ public class CollectionsINFO {
         for(String items : shoppingList){
             System.out.println(items);
         }
+
+        //-------------------------------------------------------------------------------------------------------------
+
+        //                                              Iterator
+        /*
+        Iterators in Java are used in the Collections framework to retrieve elements one by one. It is a universal iterator
+        as we can apply it to any Collections objects By using Iterator, we can perform both read and remove operations.
+        It is an improved version of Enumeration with the additional functionality of removing an element.
+         */
+
+        // Iterator<ListName> abc = new Iterator();
     }
 }

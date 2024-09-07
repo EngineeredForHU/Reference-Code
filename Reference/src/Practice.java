@@ -45,6 +45,7 @@ public class Practice {
             allNames.append(name2 + " ");
         }
         System.out.println(allNames);
+
 //------------------------------------------------------------------------------------------------------------------------
 //                                               Questions 3-6
         

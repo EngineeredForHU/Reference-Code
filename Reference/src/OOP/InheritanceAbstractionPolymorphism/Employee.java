@@ -26,6 +26,7 @@ public abstract class Employee {
                 "\nAddress: " + address;
     }
 
+    String adc = "ads";
 
 
     /*
