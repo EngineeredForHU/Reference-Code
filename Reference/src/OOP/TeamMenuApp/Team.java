@@ -17,7 +17,7 @@ public class Team {
     }
 
     public void describe(){
-        System.out.println("Team Name: " + name);
+        System.out.println("Team Name: " + name+"\n");
         //loops through the player list and prints out the describe method for each player
         for (Player player:players){
             //grabs the describePlayer method in player

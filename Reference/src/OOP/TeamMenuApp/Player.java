@@ -15,7 +15,7 @@ public class Player {
 
     //method that describes the player
     public void describePlayer(){
-        System.out.println("Player: " + name + "\nPosition: "+position+"\nSpecialty: " + specialty);
+        System.out.println("Player Name: " + name + "\nPosition: "+position+"\nSpecialty: " + specialty+"\n");
     }
 
 
